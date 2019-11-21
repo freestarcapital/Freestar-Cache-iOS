@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://freestar.io"
   s.license      = { :type => 'Freestar Limited License' }
   s.author       = { "Freestar Mobile Engineering" => "dean.chang@freestar.io" }
-  s.source       = { "https" : "https://storage.googleapis.com/freestar-sdk/freestar-cache-iOS.tar.gz" } 
+  s.source       = { :https => 'https://storage.googleapis.com/freestar-sdk/freestar-cache-iOS.tar.gz' } 
   s.ios.deployment_target   = "8.0"
   s.ios.vendored_frameworks = "build/FSCache.framework"
 end
