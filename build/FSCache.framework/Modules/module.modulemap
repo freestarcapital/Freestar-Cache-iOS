@@ -1,6 +1,0 @@
-framework module FSCache {
-  umbrella header "FSCache.h"
-
-  export *
-  module * { export * }
-}
